@@ -1,0 +1,102 @@
+html {
+  background: rgb(1, 0, 44);
+  background: fixed
+    linear-gradient(
+      343deg,
+      rgba(1, 0, 44, 1) 0%,
+      rgba(121, 9, 111, 1) 50%,
+      rgba(143, 48, 201, 1) 100%
+    );
+  font-family: "Source Code Pro", monospace;
+}
+
+h1 {
+  color: rgb(31, 15, 120);
+}
+
+h4 {
+  font-size: 16px;
+}
+
+.container {
+  background-color: rgba(240, 248, 255, 0.676);
+  margin: 0 auto;
+  margin-top: 3cm;
+  width: 18cm;
+  height: 9.2cm;
+  text-align: center;
+  padding: 2mm;
+  padding-top: 7mm;
+  border-radius: 18px;
+}
+
+.input-box {
+  margin-top: 16mm;
+  margin-bottom: 3mm;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+#generated-password {
+  width: 10cm;
+  height: 0.9cm;
+  font-size: 19px;
+  margin-right: 2mm;
+  padding-left: 3mm;
+  border-radius: 10px;
+  border: none;
+  font-family: "Source Code Pro", monospace;
+}
+
+#selector {
+  width: 1cm;
+  height: 0.9cm;
+  border-radius: 10px;
+  border-color: rgb(139, 139, 139);
+  text-align: center;
+  border: none;
+  font-family: "Source Code Pro", monospace;
+  font-size: 17px;
+}
+
+#generate-button {
+  height: 1cm;
+  width: 3.7cm;
+  font-size: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgb(30, 6, 69);
+  color: rgb(215, 215, 215);
+  border: none;
+  font-family: "Source Code Pro", monospace;
+}
+
+#generate-button:hover {
+  opacity: 50%;
+}
+
+.fa-clipboard {
+  font-size: 30px;
+  margin-left: 2mm;
+  cursor: pointer;
+  margin-top: 5mm;
+  color: rgb(30, 6, 69);
+}
+
+.fa-clipboard:hover {
+  opacity: 50%;
+}
+
+#notification {
+  background-color: rgba(128, 177, 218, 0.936);
+  min-width: 5cm;
+  max-width: 17cm;
+  height: 0.6cm;
+  position: absolute;
+  bottom: 1cm;
+  right: 0.6cm;
+  font-size: 17px;
+  border-radius: 22px;
+  padding: 3.5mm;
+}

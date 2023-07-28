@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="passgen.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/21e49bdcfc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Random Password Generator</h1>
+      <h4>
+        Select a length for your password (from 5 to 35), then click on
+        GENERATE. You can copy the password by clicking on the copy icon.
+      </h4>
+      <div class="input-box">
+        <input
+          id="generated-password"
+          type="text"
+          placeholder="generate a new password"
+          readonly
+        />
+        <input
+          type="number"
+          value="5"
+          id="selector"
+          name="quantity"
+          min="5"
+          max="35"
+        />
+      </div>
+      <button id="generate-button" onclick="generator()">GENERATE</button>
+      <i class="fas fa-clipboard" onclick="copy()"></i>
+    </div>
+  </body>
+</html>
